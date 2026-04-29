@@ -68,9 +68,9 @@ while True:
             break
 
     if tentativa_restante == 0:
-        print('\n Que penas suas tentativas acabram')
+        print(f'\n Que pena suas tentativas acabram, o numero secreto era {num_aleatorio}')
     
-    denovo = input('Deseja jogar novamente ? (S / N): ').lower()
+    denovo = input('\nDeseja jogar novamente ? (S / N): ').lower()
     if denovo != 's':
         print('Obrigado por jogar!')
         print(f'\nPlacar de todas as jogadas: {pontuacao}')
